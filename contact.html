@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>اتصل بنا - دليل فعاليات المدينة</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body class="contact-page">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >الرئيسية</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="events.html">الفعاليات</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">عن الدليل</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contact.html">اتصل بنا</a>
+              </li>
+            </ul>
+            <a class="navbar-brand ms-0" href="index.html"
+              >دليل فعاليات المدينة</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container mb-5">
+      <section id="contact-form-section">
+        <div class="py-5 text-center">
+          <h2 class="mb-4 title justify-content-center">اتصل بنا</h2>
+          <!-- <h2 class="text-center mb-4 title">اتصل بنا</h2> -->
+          <p class="mb-0">
+            نحن هنا للإجابة على استفساراتكم واقتراحاتكم بكل سرور.
+          </p>
+        </div>
+        <div id="form-response" class="mb-4"></div>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <form id="contact-form">
+              <div class="mb-3">
+                <label for="name" class="form-label">الاسم</label>
+                <input type="text" class="form-control" id="name" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">البريد الإلكتروني</label>
+                <input type="email" class="form-control" id="email" required />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">الرسالة</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary justify-self-center">
+                إرسال
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="text-lg-start mt-5">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-8 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase text-center">دليل فعاليات مدينة حلب</h5>
+            <p>
+              موقعنا هو دليلك الشامل لاستكشاف أفضل الفعاليات والأنشطة في مدينتك.
+              انضم إلينا وكن جزءاً من مجتمعنا النابض بالتراث والأصالة!
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">روابط سريعة</h5>
+            <ul class="list-unstyled mb-0">
+              <li><a href="about.html" class="text-dark">عن الدليل</a></li>
+              <li><a href="contact.html" class="text-dark">اتصل بنا</a></li>
+              <li><a href="#" class="text-dark">سياسة الخصوصية</a></li>
+            </ul>
+          </div>
+          <!-- <h5 class="text-uppercase text-center">تابعنا</h5> -->
+          <div class="col-lg-12 col-md-6 mb-4 mb-md-0 social-buttons">
+            <a
+              href="https://github.com/AasaHope"
+              class="social-button github"
+              target="_blank"
+              title="GitHub"
+            >
+              <i class="bi bi-github"></i>
+            </a>
+            <a
+              href="#"
+              class="social-button linkedin"
+              target="_blank"
+              title="LinkedIn"
+            >
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a
+              href="#"
+              class="social-button facebook"
+              target="_blank"
+              title="Facebook"
+            >
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a
+              href="#"
+              class="social-button instagram"
+              target="_blank"
+              title="Instagram"
+            >
+              <i class="bi bi-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2025 جميع الحقوق محفوظة: دليل فعاليات مدينة حلب
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
